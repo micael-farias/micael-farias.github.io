@@ -1,91 +1,101 @@
-<div style="max-width: 900px; margin: 0 auto; padding: 20px;"> 
-  <div style="text-align: center; margin-bottom: 30px;">
-    <h1 style="font-size: 2.5em; color: #333;">Meus Projetos</h1>
+<div style="max-width: 900px; margin: 0 auto; padding: 20px;">
+  <style>
+      .botao-ver-mais {
+          display: inline-block;
+          background-color: transparent;
+          color: #3498db;
+          padding: 10px 15px;
+          text-decoration: none;
+          border: 2px solid #3498db; /* Borda para destaque */
+          border-radius: 5px;
+          transition: background-color 0.5s, color 0.5s; /* Transição suave */
+      }
+
+      .botao-ver-mais:hover {
+          background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com leve transparência */
+          color: white; /* Muda a cor do texto ao passar o mouse */
+      }
+  </style>
+  
+  <h1 style="font-size: 2.5em; color: #333;">Meus Projetos</h1>
+
+  <div class="project" style="display: flex; flex-wrap: wrap; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+      <div style="flex: 1; display: flex; justify-content: space-around; align-items: center; margin-right: 20px;">
+          <img alt="Patas Felizes 2" src="/assets/img/patas-felizes.gif" style="max-width: 350px; height: 200px;" />
+      </div>
+      <div class="project-details" style="flex: 2;">
+          <h3 style="color: #2c3e50; margin-bottom: 10px;">Patas Felizes</h3>
+          <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Projeto de extensão, Agosto 2023 - Dezembro 2023)</p>
+          <ul style="padding-left: 20px; margin-bottom: 15px;">
+              <li>Desktop, JavaFX, NetBeans, SQLite</li>
+          </ul>
+          <p style="line-height: 1.6; color: #34495e;">Um projeto de extensão do curso de Engenharia de Software, que consiste no desenvolvimento de um aplicativo desktop para protetores de animais visando aprimorar o controle e organização das atividades de resgate de animais de rua.</p>
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7181479843274887168/" target="_blank" class="botao-ver-mais">Ver Projeto</a>
+      </div>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-    <div style="flex: 1; display: flex; justify-content: space-around; align-items: center; margin-right: 20px;">
-      <img alt="Patas Felizes 2" src="/assets/img/patas-felizes.gif" style="max-width: 350px; height: 200px;" />
-    </div>
-    <div style="flex: 2;">
-      <h3 style="color: #2c3e50; margin-bottom: 10px;">Patas Felizes</h3>
-      <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Projeto de extensão, Agosto 2023 - Dezembro 2023)</p>
+  <div class="project" style="display: flex; flex-wrap: wrap; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+      <div style="flex: 1; display: flex; justify-content: space-around; align-items: center; margin-right: 20px;">
+          <img alt="QuixAlert 2" src="/assets/img/quixalert.jpg" style="max-width: 500px; height: 200px;" />
+      </div>
+      <div class="project-details" style="flex: 2;">
+          <h3 style="color: #2c3e50; margin-bottom: 10px;">QuixAlert</h3>
+          <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Projeto Integrado II, Março 2024 - Julho 2024)</p>
+          <ul style="padding-left: 20px; margin-bottom: 15px;">
+              <li>Mobile & Web, React, Next.js, Tailwind, Java, Spring Boot, Mockito, PostgreSQL, Docker</li>
+          </ul>
+          <p style="line-height: 1.6; color: #34495e;">Projeto Integrado II de Engenharia de Software: sistema para denúncias contra maus-tratos a animais e descartes indevidos de lixo. Inclui app mobile para denúncias públicas e sistema web para tratamento das mesmas.</p>
+          <a href="https://github.com/QuixAlert" target="_blank" class="botao-ver-mais">Ver Projeto</a>
+      </div>
+  </div>
+
+  <h1 style="font-size: 2.5em; color: #333;">Experiência Profissional</h1>
+
+  <div style="margin-bottom: 40px;">
+      <h3 style="color: #2c3e50; margin-bottom: 10px;">Desenvolvedor em Software House</h3>
+      <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Meio Período, Outubro 2021 - Presente)</p>
       <ul style="padding-left: 20px; margin-bottom: 15px;">
-        <li>Desktop, JavaFX, NetBeans, SQLite</li>
+          <li>Desenvolvimento Mobile (Java/Kotlin)</li>
+          <li>Desenvolvimento Backend (C#/.NET)</li>
+          <li>Soluções ERP, Gamificação, ERP Web</li>
       </ul>
-      <p style="line-height: 1.6; color: #34495e;">Um projeto de extensão do curso de Engenharia de Software, que consiste no desenvolvimento de um aplicativo desktop para protetores de animais visando aprimorar o controle e organização das atividades de resgate de animais de rua.</p>
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7181479843274887168/" target="_blank" style="display: inline-block; background-color: #3498db; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Ver Projeto</a>
-    </div>
+      <p style="line-height: 1.6; color: #34495e;">Atuei em diversos projetos no desenvolvimento de Sistemas de Gestão Empresarial (ERP), contribuindo com soluções que potencializam vendas do comércio e indústrias, incluindo apps de força de vendas, sistemas B2B e B2C. Experiência em migração de apps, implementação de novas features e integrações de sistemas.</p>
+      
+      <h4 style="color: #34495e; margin-bottom: 5px;">Experiência como Desenvolvedor Back-end (C#/.NET)</h4>
+      <p style="line-height: 1.6; color: #34495e;">Migração de ERP Desktop para Web. Criação de endpoints para sistemas B2B e B2C, testes unitários, desenvolvimento de kanbans, implementação de Single Sign-On, integração com Power BI e APIs (Email, SMS, WhatsApp, Pix, Ecommerce B2C).</p>   
+
+      <h4 style="color: #34495e; margin-bottom: 5px;">Experiência como Desenvolvedor Mobile (Java/Kotlin)</h4>
+      <p style="line-height: 1.6; color: #34495e;">Desenvolvimento e manutenção de um aplicativo de vendas (Força de Vendas - FV) utilizado por indústrias e comércios. Realizei a migração de aplicativos Android de Java para Kotlin, implementando novas funcionalidades como o ranking de best sellers. Além disso, atualizei o design do app FV para modernizá-lo e aprimorar a experiência do usuário.</p>
+
+      <h4 style="color: #34495e; margin-bottom: 5px;">Tecnologias</h4>
+      <p style="line-height: 1.6; color: #34495e;">Android Studio, Kotlin, SQLite, Firebase, Retrofit, C#, .NET, Python, Oracle.</p>
+
+      <h4 style="color: #34495e; margin-bottom: 5px;">Ferramentas</h4>
+      <p style="line-height: 1.6; color: #34495e;">Azure DevOps, AWS (S3, Queues), Redis, Entity Framework Core, XUnit, Moq, Power BI, Postman, Husky, Zenvia, SendGrid/Gmail.</p>
+
+      <h4 style="color: #34495e; margin-bottom: 5px;">Soluções ERP</h4>
+      <p style="line-height: 1.6; color: #34495e;">Gamificação, ERP Web, Hub Tecnospeed, Pix, Notas Fiscais.</p>
+
+      <h4 style="color: #34495e; margin-bottom: 5px;">Tecnologias Adicionais</h4>
+      <p style="line-height: 1.6; color: #34495e;">Arquitetura REST, Swagger, NuGet, Dependency Injection, Data Modeler, PL/SQL, Criptografia, Application Insights, Relatórios, Integração com Sefaz, CRM para e-commerce B2B e B2C.</p>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
-    <div style="flex: 1; display: flex; justify-content: space-around; align-items: center; margin-right: 20px;">
-      <img alt="QuixAlert 2" src="/assets/img/quixalert.jpg" style="max-width: 500px; height: 200px;" />
-    </div>
-    <div style="flex: 2;">
-      <h3 style="color: #2c3e50; margin-bottom: 10px;">QuixAlert</h3>
-      <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Projeto Integrado II, Março 2024 - Julho 2024)</p>
+  <div style="margin-bottom: 40px;">
+      <h3 style="color: #2c3e50; margin-bottom: 10px;">EducaSangue</h3>
+      <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Freelancer, Agosto 2024 - Presente)</p>
       <ul style="padding-left: 20px; margin-bottom: 15px;">
-        <li>Mobile & Web, React, Next.js, Tailwind, Java, Spring Boot, Mockito, PostgreSQL, Docker</li>
+          <li>Mobile (React Native CLI), Frontend (React.js, HTML5, CSS), Backend (Node.js, PostgreSQL, Docker)</li>
       </ul>
-      <p style="line-height: 1.6; color: #34495e;">Projeto Integrado II de Engenharia de Software: sistema para denúncias contra maus-tratos a animais e descartes indevidos de lixo. Inclui app mobile para denúncias públicas e sistema web para tratamento das mesmas.</p>
-      <a href="https://github.com/QuixAlert" target="_blank" style="display: inline-block; background-color: #3498db; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Ver Projeto</a>
-    </div>
-  </div>
-
-  <div style="text-align: center; margin-bottom: 30px;">
-    <h1 style="font-size: 2.5em; color: #333;">Experiência Profissional</h1>
+      <p style="line-height: 1.6; color: #34495e;">Manutenção e desenvolvimento de novas features no app Educasangue, uma plataforma educacional idealizada pelo <strong>Hemoce</strong> para melhorar o conhecimento em Medicina Transfusional. Inclui aplicações mobile e web para disseminar informações de forma lúdica e interativa.</p>
+      <a href="https://educasangue.com.br/index.php/sobre/" target="_blank" class="botao-ver-mais">Ver Mais</a>
   </div>
 
   <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; margin-bottom: 10px;">Desenvolvedor em Software House</h3>
-    <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Meio Período, Outubro 2021 - Presente)</p>
-    <ul style="padding-left: 20px; margin-bottom: 15px;">
-        <li>Desenvolvimento Mobile (Java/Kotlin)</li>
-        <li>Desenvolvimento Backend (C#/.NET)</li>
-        <li>Soluções ERP, Gamificação, ERP Web</li>
-    </ul>
-    <p style="line-height: 1.6; color: #34495e;">Atuei em diversos projetos no desenvolvimento de Sistemas de Gestão Empresarial (ERP), contribuindo com soluções que potencializam vendas do comércio e indústrias, incluindo apps de força de vendas, sistemas B2B e B2C. Experiência em migração de apps, implementação de novas features e integrações de sistemas.</p>
-
-    <h4 style="color: #34495e; margin-bottom: 5px;">Experiência como Desenvolvedor Back-end (C#/.NET)</h4>
-    <p style="line-height: 1.6; color: #34495e;">
-        Migração de ERP Desktop para Web. Criação de endpoints para sistemas B2B e B2C, testes unitários, desenvolvimento de kanbans, implementação de Single Sign-On, integração com Power BI e APIs (Email, SMS, WhatsApp, Pix, Ecommerce B2C). 
-    </p>   
-
-    <h4 style="color: #34495e; margin-bottom: 5px;">Experiência como Desenvolvedor Mobile (Java/Kotlin)</h4>
-    <p style="line-height: 1.6; color: #34495e;">
-        Desenvolvimento e manutenção de um aplicativo de vendas (Força de Vendas - FV) utilizado por indústrias e comércios. Realizei a migração de aplicativos Android de Java para Kotlin, implementando novas funcionalidades como o ranking de best sellers. Além disso, atualizei o design do app FV para modernizá-lo e aprimorar a experiência do usuário.
-    </p>
-
-    <h4 style="color: #34495e; margin-bottom: 5px;">Tecnologias</h4>
-    <p style="line-height: 1.6; color: #34495e;">Android Studio, Kotlin, SQLite, Firebase, Retrofit, C#, .NET, Python, Oracle.</p>
-
-    <h4 style="color: #34495e; margin-bottom: 5px;">Ferramentas</h4>
-    <p style="line-height: 1.6; color: #34495e;">Azure DevOps, AWS (S3, Queues), Redis, Entity Framework Core, XUnit, Moq, Power BI, Postman, Husky, Zenvia, SendGrid/Gmail.</p>
-
-    <h4 style="color: #34495e; margin-bottom: 5px;">Soluções ERP</h4>
-    <p style="line-height: 1.6; color: #34495e;">Gamificação, ERP Web, Hub Tecnospeed, Pix, Notas Fiscais.</p>
-
-    <h4 style="color: #34495e; margin-bottom: 5px;">Tecnologias Adicionais</h4>
-    <p style="line-height: 1.6; color: #34495e;">Arquitetura REST, Swagger, NuGet, Dependency Injection, Data Modeler, PL/SQL, Criptografia, Application Insights, Relatórios, Integração com Sefaz, CRM para e-commerce B2B e B2C.</p>
-   </div>
-
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; margin-bottom: 10px;">EducaSangue</h3>
-    <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Freelancer, Agosto 2024 - Presente)</p>
-    <ul style="padding-left: 20px; margin-bottom: 15px;">
-      <li>Mobile (React Native CLI), Frontend (React.js, HTML5, CSS), Backend (Node.js, PostgreSQL, Docker)</li>
-    </ul>
-    <p style="line-height: 1.6; color: #34495e;">Manutenção e desenvolvimento de novas features no app Educasangue, uma plataforma educacional idealizada pelo <strong>Hemoce</strong> para melhorar o conhecimento em Medicina Transfusional. Inclui aplicações mobile e web para disseminar informações de forma lúdica e interativa.</p>
-    <a href="https://educasangue.com.br/index.php/sobre/" target="_blank" style="display: inline-block; background-color: #3498db; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">Ver Mais</a>
-  </div>
-
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; margin-bottom: 10px;">AI4WELLNESS</h3>
-    <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Insight Lab, Bolsa, Janeiro 2024 - Presente)</p>
-    <ul style="padding-left: 20px; margin-bottom: 15px;">
-      <li>Mobile & Smartwatch, Kotlin, Jetpack Compose, Android Jetpack</li>
-    </ul>
-    <p style="line-height: 1.6; color: #34495e;">Manutenção e desenvolvimento de novas features no app Ai4Wellness, um projeto multidisciplinar que envolve colaboração entre a <strong>Univerisade Federal do Ceará (UFC), Samsung, Insight Lab e FCETREDE </strong>. O projeto utiliza inteligência artificial para promover saúde e bem-estar através de dispositivos móveis e vestíveis.</p>
+      <h3 style="color: #2c3e50; margin-bottom: 10px;">AI4WELLNESS</h3>
+      <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">(Insight Lab, Bolsa, Janeiro 2024 - Presente)</p>
+      <ul style="padding-left: 20px; margin-bottom: 15px;">
+          <li>Mobile & Smartwatch, Kotlin, Jetpack Compose, Android Jetpack</li>
+      </ul>
+      <p style="line-height: 1.6; color: #34495e;">Manutenção e desenvolvimento de novas features no app Ai4Wellness, um projeto multidisciplinar que envolve colaboração entre a <strong>Universidade Federal do Ceará (UFC), Samsung, Insight Lab e FCETREDE</strong>. O projeto utiliza inteligência artificial para promover saúde e bem-estar através de dispositivos móveis e vestíveis.</p>
   </div>
 </div>
